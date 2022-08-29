@@ -1,3 +1,4 @@
+import random
 import sys
 from time import sleep
 from random import randint
@@ -266,6 +267,8 @@ class TouhouKDG:
                 self._create_alien(alien_number, row_number, num)
 
     def _create_alien(self, alien_number, row_number, num):
+        if random.randint(0, 9) < 4:
+            return
         # 创建一个敌机并将其加入当前行
         alien = Alien(self, 0)
         alienn = Alien(self, num)
