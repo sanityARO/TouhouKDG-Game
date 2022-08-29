@@ -9,9 +9,9 @@ This is a re-creation game of Touhou,
 
 presented by SANITY.
 
->>But, where is Koishi?
+>But, where is Koishi?
 
->>Koishi has been dancing in this game.
+>Koishi has been dancing in this game.
 
 ======================================================================
 
