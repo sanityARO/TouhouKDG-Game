@@ -122,6 +122,9 @@ class TouhouKDG:
         self.sb.prep_goal_rate()
         self.stats.game_active = True
 
+        #重新显示残机!
+        self.sb.prep_left()
+
         # 清空余下的敌机和子弹
         self.aliens.empty()
         self.bullets.empty()
@@ -317,10 +320,10 @@ class TouhouKDG:
 
             # 暂停
             sleep(0.5)
-        else:
-            self.stats.game_active = False
-            pygame.mouse.set_visible(True)
-        # print(self.stats.ships_left)   #test
+
+            if self.stats.ships_left==0:
+                self.stats.game_active = False
+                pygame.mouse.set_visible(True)
 
     def _update_screen(self):
         # 每次循环重新绘制屏幕
