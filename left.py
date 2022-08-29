@@ -12,7 +12,7 @@ class Left(Sprite):
         self.screen_rect=ai_game.screen.get_rect()
 
         #加载自机并获取其外接矩形
-        self.image=pygame.image.load('images/ship_left.bmp')
+        self.image=pygame.image.load('images/ship_left1.bmp')
         self.rect=self.image.get_rect()
 
         #对于每个新自机,都将其放在屏幕底部的中央
