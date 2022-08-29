@@ -26,7 +26,10 @@ presented by SANITY.
 
 ===============================================
 
-项目地址：https://github.com/sanityARO/TouhouKDG-Game.git
-请从Releases版本处下载游戏或源代码
+项目地址: https://github.com/sanityARO/TouhouKDG_Demo.git
+
+版本下载地址: https://github.com/sanityARO/TouhouKDG-Game.git
+请从Releases版本处下载游戏
+
 如果您对这款游戏有兴趣，请在Github的"Issues"中提出宝贵建议，
 本游戏制作者会仔细阅读！感谢您的热心帮助！
