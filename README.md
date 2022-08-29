@@ -34,6 +34,9 @@ presented by SANITY.
 
 1.窗口太大，屏幕放不下：
 
+<img width="712" alt="微信图片_20220829200755" src="https://user-images.githubusercontent.com/106137106/187197992-c9dfa970-6beb-43d9-9d7f-95d527b8502d.png">
+(高DPI不适配bug示例图)
+
 解决高DPI不适配bug：网页搜索“高DPI设置”，
 
 或查看：http://www.ujiaoshou.com/xtjc/160214814.html
